@@ -33,12 +33,12 @@ public class TripPlannerStepDef {
 		 //Select Source 
 		 driver.findElement(By.id("search-input-From")).sendKeys(src);
 		 WebDriverWait wait1 = new WebDriverWait(driver,20);
-		 WebElement ele1 = wait1.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#suggestion-"+ "From" +"-0")));
+		 wait1.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#suggestion-"+ "From" +"-0")));
 		
 		 //Select Destination  
 	     driver.findElement(By.id("search-input-To")).sendKeys(dest);
 	     WebDriverWait wait2 = new WebDriverWait(driver,20);
-	 	 WebElement ele2 = wait2.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#suggestion-"+ "To" +"-0")));
+	 	 wait2.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("#suggestion-"+ "To" +"-0")));
 	     
 	 	 //Click Go Button	      
 	     driver.findElement(By.id("search-button")).click();

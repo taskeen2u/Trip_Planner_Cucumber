@@ -105,7 +105,7 @@ formatter.match({
   "location": "TripPlannerStepDef.phileas_is_planning_a_trip()"
 });
 formatter.result({
-  "duration": 10649447490,
+  "duration": 9627832704,
   "status": "passed"
 });
 formatter.match({
@@ -122,14 +122,14 @@ formatter.match({
   "location": "TripPlannerStepDef.he_executes_a_trip_plan_from_to(String,String)"
 });
 formatter.result({
-  "duration": 2633840414,
+  "duration": 2623232453,
   "status": "passed"
 });
 formatter.match({
   "location": "TripPlannerStepDef.a_list_of_trips_should_be_provided()"
 });
 formatter.result({
-  "duration": 1211566263,
+  "duration": 1514770391,
   "status": "passed"
 });
 formatter.scenario({
@@ -169,7 +169,7 @@ formatter.match({
   "location": "TripPlannerStepDef.phileas_is_planning_a_trip()"
 });
 formatter.result({
-  "duration": 5537747384,
+  "duration": 7237391298,
   "status": "passed"
 });
 formatter.match({
@@ -186,14 +186,14 @@ formatter.match({
   "location": "TripPlannerStepDef.he_executes_a_trip_plan_from_to(String,String)"
 });
 formatter.result({
-  "duration": 2136244104,
+  "duration": 2041317815,
   "status": "passed"
 });
 formatter.match({
   "location": "TripPlannerStepDef.a_list_of_trips_should_be_provided()"
 });
 formatter.result({
-  "duration": 896200700,
+  "duration": 953532853,
   "status": "passed"
 });
 });
